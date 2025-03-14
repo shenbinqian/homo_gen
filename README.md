@@ -23,7 +23,7 @@ python preprocessing.py
 
 ## Step 1 Homophone Generation
 
-Once the corpus is prepared, run the following code to generate all possible homophones and the top-k homophones filtered using the baseline method proposed by Hiruncharoenvate et al. (2015).
+Once the corpus is prepared, run the following code to generate all possible homophones and the top-k homophones filtered using the baseline method proposed by Hiruncharoenvate et al. (2015). The generator uses the file *extracted_keywords.xlsx* which contains translation error words discovered by [Qian et al. (2023)](https://aclanthology.org/2023.eamt-1.13/). You can replace this file with your own words that need homophone substitution.
 
 ```
 python generator.py
@@ -45,7 +45,8 @@ Check for which word you want to get self-information scores and run the followi
 python self_info.py
 ```
 
-
 ## Reference(s)
 
 Chaya Hiruncharoenvate, Zhiyuan Lin, and Eric Gilbert. 2015. Algorithmically Bypassing Censorship on Sina Weibo with Nondeterministic Homophone Substitutions. In *Proceedings of the International AAAI Conference on Web and Social Media*, 9(1):150–158.
+
+Shenbin Qian, Constantin Orasan, Felix Do Carmo, Qiuliang Li, and Diptesh Kanojia. 2023. Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation. In *Proceedings of the 24th Annual Conference of the European Association for Machine Translation*, pages 125–135, Tampere, Finland. European Association for Machine Translation.
