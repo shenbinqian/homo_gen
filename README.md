@@ -15,7 +15,7 @@ Pytorch and transormers are used to run language models to get self-information 
 
 ## Optional Step 0 to Prepare Weibo Corpus
 
-This step is to prepare the Weibo corpus $D$ to get a frequency list as both our method and the baseline are based on frequency. Since $D$ is provided in the *weibo_char_freq.json* file, this step is optional for replicating our results. However, you can run the following command on your own databases.
+This step is to prepare the Weibo corpus $D$ to get a frequency list as both our method and the baseline are based on frequency. Since $D$ is provided in the [weibo_char_freq.json](https://github.com/surrey-nlp/homo_gen/blob/main/weibo_char_freq.json) file, this step is optional for replicating our results. However, you can run the following command on your own databases.
 
 ```
 python preprocessing.py
@@ -23,7 +23,7 @@ python preprocessing.py
 
 ## Step 1 Homophone Generation
 
-Once the corpus is prepared, run the following code to generate all possible homophones and the top-k homophones filtered using the baseline method proposed by Hiruncharoenvate et al. (2015). The generator uses the file *extracted_keywords.xlsx* which contains translation error words discovered by [Qian et al. (2023)](https://aclanthology.org/2023.eamt-1.13/). You can replace this file with your own words that need homophone substitution.
+Once the corpus is prepared, run the following code to generate all possible homophones and the top-k homophones filtered using the baseline method proposed by Hiruncharoenvate et al. (2015). The generator uses the file [extracted_keywords.xlsx](https://github.com/surrey-nlp/homo_gen/blob/main/extracted_keywords.xlsx) which contains translation error words discovered by [Qian et al. (2023)](https://aclanthology.org/2023.eamt-1.13/). You can replace this file with your own words that need homophone substitution.
 
 ```
 python generator.py
