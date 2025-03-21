@@ -1,6 +1,6 @@
 # Automatic Generation of Chinese Homophone Words
 
-This repository contains the code and data to generate Chinese homophone words to probe machine translation evaluation systems for our paper **Automatically Generating Chinese Homophone Words to Probe Machine Translation Estimation Systems** accepted by the 10th Workshop on Noisy and User-generated Text (W-NUT) at NAACL 2025. Our paper will be released soon.
+This repository contains the code and data to generate Chinese homophone words to probe machine translation evaluation systems for our paper [Automatically Generating Chinese Homophone Words to Probe Machine Translation Estimation Systems](https://arxiv.org/abs/2503.16158) accepted by the 10th Workshop on Noisy and User-generated Text (W-NUT) at NAACL 2025. Our method using self-information achieves much higher correlation with human preferences than an existing method proposed by Hiruncharoenvate et al. (2015). These generated homophone words can be used for censorship avoidance or as what we show, creating data perturbations to probe the robustness of MT or MT evaluation systems.
 
 
 ## Installation
