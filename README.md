@@ -31,7 +31,7 @@ python generator.py
 
 ## Step 2 Pick Frequent Translation Error Words and Frequent Homophones
 
-Pick most errorneous words in translation, and optionally filter homophone candidates based on frequency for getting self-information scores. To create your own data, you can run the following code. To replicate our results, you can skip this step and use the data in *freq_candidates* folder to get self-information scores in the next step.
+Pick most erroneous words in translation, and optionally filter homophone candidates based on frequency for getting self-information scores. To create your own data, you can run the following code. To replicate our results, you can skip this step and use the data in *freq_candidates* folder to get self-information scores in the next step.
 
 ```
 python prepare4self_info.py
